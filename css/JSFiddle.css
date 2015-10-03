@@ -110,7 +110,11 @@ ul {
 .panel {
     background-color: rgba(255,255,255,.75);
 }
-#collapse1 {
-    display: flex;
-    align-content: space-around;
+
+.pop img {
+    display: block;
+    margin: auto;
+}
+.popover {
+    max-width: 750px;
 }
