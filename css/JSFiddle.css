@@ -91,6 +91,7 @@ ul {
 
 .container {
     position: relative;
+    padding: 0;
 }
 
 #mainContact {
@@ -108,7 +109,7 @@ ul {
 }
 
 .panel {
-    background-color: rgba(255,255,255,.75);
+    background-color: rgba(255,255,255,.8);
 }
 
 .pop img {
@@ -117,4 +118,36 @@ ul {
 }
 .popover {
     max-width: 750px;
+}
+.noPopText {
+    text-align: center;
+
+}
+.panel-body {
+    padding: 15px 0 15px 0;
+}
+
+#XWare {
+    display: block;
+    margin: 25px auto 25px auto;
+    background-color: #fff;
+    padding: 5px 0 5px 0;
+}
+#CampC {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 250px;
+}
+#CIB {
+    width: 200px;
+    display: block;
+    margin: auto;
+    background-color: #fff;
+}
+.row {
+    margin: 0;
+}
+#MATC {
+    background-color: #4E0018;
+    margin-top: 30px;
 }
