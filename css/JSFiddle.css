@@ -151,11 +151,26 @@ ul {
     background-color: #4E0018;
     margin-top: 30px;
 }
-.col-xs-3 {
+.col-xs-2 {
     text-align: center;
     margin: auto;
 }
-.col-xs-3 a {
+.col-xs-2 a {
     color: black;
     font-size: xx-large;
+}
+.ProjectImg {
+    display: block;
+    margin: auto;
+    width: 250px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+.ProjectImg:hover{
+width: 325px;
+}
+
+.col-md-4 {
+    padding: 0;
 }
