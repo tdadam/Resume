@@ -46,17 +46,13 @@ footer a:hover {
 header *, footer * {
     color: white;
 }
-.titleMain {
-    text-align: center;
-    border: 5px solid black;
-    margin: 10px 20px 10px 300px;
-    background-color: rgba(255, 255, 255, 0.7);
-}
+
 .title {
     text-align: center;
     border: 5px solid black;
-    margin: 10px 20px 10px 20px;
+    margin: 10px auto 10px auto;
     background-color: rgba(255, 255, 255, 0.7);
+    width: 75%;
 }
 
 .body {
@@ -74,24 +70,11 @@ article nav {
     border: black 5px;
     height: 100%;
 }
-.sidebarText *{
-    color: black;
-    text-decoration: none;
-}
-.sidebarText h4{
-    padding-left: 7px;
-}
+
 form input, textarea {
     border: black solid 1px
 }
-.contactPage{
-    display: flex;
-    justify-content: center;
-    height: 100%;
-}
-#contactInfo{
-    margin-top: 10px;
-}
+
 table {
     width: auto;
     border-collapse: collapse;
@@ -105,49 +88,17 @@ ul {
     list-style-type: none;
     padding-left: 15px;
 }
-.top-left {
-    background: url("../images/Iceland1.png") no-repeat;
-    height: 500px;
-    padding-top: 380px;
-}
-.top-right {
-    background: url("../images/Iceland2.png") no-repeat;
-    height: 500px;
-    padding-top: 380px;
-}
-.bottom-left {
-    background: url("../images/Iceland3.png") no-repeat;
-    height: 500px;
-    padding-top: 380px;
-}
-.bottom-right {
-    background: url("../images/Iceland4.png") no-repeat;
-    height: 500px;
-    padding-top: 380px;
-}
+
 .container {
-    width: inherit;
+    position: relative;
 }
+
 #mainContact {
     display: flex;
     align-content: space-around;
     height: 75px;
 }
 
-.contactFlex {
-    margin: auto;
-}
-.contactFlex a {
-    color: rgba(24, 22, 123, 0.91);
-}
-
-.projectName {
-    padding: 5px 0 5px 15px;
-    font-size: 24pt;
-    color: #131E4A;
-    background-color: rgba(255, 255, 255, 0.6);
-    width: 285px;
-}
 .projectLink {
     text-decoration: none;
     color: #131E4A;
@@ -156,22 +107,10 @@ ul {
     text-decoration: none;
 }
 
-.imgLeft {
-    float: left;
-    padding-right: 10px;
+.panel {
+    background-color: rgba(255,255,255,.75);
 }
-
-.imgRight {
-    float: right;
-    padding-left: 10px;
-}
-
-.btnContact {
-    background-color: black;
-    color: #E9E4DF;
-    -webkit-box-shadow: 10px 10px 5px 0 rgba(158,158,158,1);
-    -moz-box-shadow: 10px 10px 5px 0 rgba(158,158,158,1);
-    box-shadow: 3px 3px 5px 0 rgba(158,158,158,1);
-    margin-right: 8px;
-    width: 75px;
+#collapse1 {
+    display: flex;
+    align-content: space-around;
 }
